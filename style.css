@@ -84,9 +84,24 @@ article:hover {
     block-size: fit-content;
   }
 
-  .article2 {
+.article2 {
     flex: 1;
     margin-left: 0.5rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    section {
+      display: block;
+    }
+  
+    article:hover {
+      transform: none;
+    }
+
+    .scale-down {
+      transform: none;
+    }
+    
   }
   
 
@@ -110,21 +125,22 @@ p {
   }
 
 .poem {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     text-align: center;
     word-spacing: 0.01rem;  
     padding-bottom: 1rem;
+ 
 }
 
 
-ul {
+dl {
     font-size: 1.4rem;
     padding-left: 1rem;
     background-color: rgba(163, 199, 178, 0.4);
     transition: 0.2s ease-out;
 }
 
-ul:hover {
+dl:hover {
     background-color: rgba(163, 199, 178, 0.6);
     transition: 0.2s ease-in;
 }

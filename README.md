@@ -17,7 +17,7 @@ Before starting the project, I decided what I wanted to include on the hobby pag
 
 1. Create an HTML file and add the necessary tags and elements.
 2. Add content to the HTML file, including headings, paragraphs, and images.
-3. Use CSS to style the hobby page, including fonts, colors, and layout.
+3. Use CSS to style the hobby page, including fonts, colours, and layout.
 4. Add JavaScript to the hobby page to add interactivity.
 
 In order to display todays date at all times I needed to generate the date and then display it through DOM manipulation. 
